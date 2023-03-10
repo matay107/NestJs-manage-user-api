@@ -1,0 +1,27 @@
+POST http://localhost:3000/auth/signup
+
+content-type:application/json
+
+{
+    "email":"test2@test.com",
+    "password":"test"
+}
+
+POST http://localhost:3000/auth/signin
+content-type:application/json
+
+{
+    "email":"test@test.com",
+    "password":"test"
+}
+
+POST http://localhost:3000/auth/signout
+
+GET http://localhost:3000/auth/whoami
+
+GET http://localhost:3000/auth/1
+
+GET http://localhost:3000/auth
+
+DELETE  http://localhost:3000/auth/1
+
